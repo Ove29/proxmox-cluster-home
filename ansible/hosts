@@ -1,0 +1,8 @@
+[pve-host]
+dehwlpve01.srvnet.org ansible_host=10.10.20.11
+dehwlpve02.srvnet.org ansible_host=10.10.20.12
+dehwlpve03.srvnet.org ansible_host=10.10.20.13
+dehwlpve04.srvnet.org ansible_host=10.10.20.14
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
